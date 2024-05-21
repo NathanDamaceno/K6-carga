@@ -10,7 +10,7 @@ export let PostSuccessRate = new Rate("post_success_rate");
 export let PostReqs = new Rate("post_reqs");
 
 export default function () {
-  let url = "http://localhost:3000/webhook/XEtUMTZ83w";
+  let url = "http://localhost:3000/webhook/LifFcuXDWJ";
 
   let payload = JSON.stringify({
     data: [
@@ -131,6 +131,6 @@ export default function () {
     }
 
     // Espera 0.1 segundo entre as requisições
-    sleep(0.1);
+    sleep(0.5);
   }
 }
